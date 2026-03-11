@@ -54,14 +54,14 @@ public class OperacionesMatematicasTests
     public void Restar_DosPositivos_RetornaLaResta()
     {
       // Arrange
-      int a = 10; 
+      int a = 20; 
       int b = 5;
 
       // Act
       var resultado = _operacionesMatematicas.Restar(a, b);
 
       // Assert
-      Assert.Equal(5, resultado);
+      Assert.Equal(15, resultado);
     }
 
 }
