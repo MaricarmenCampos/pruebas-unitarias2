@@ -28,4 +28,4 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: build with dotnet
-        run: dotnet build --configuration $env.BUILD_CONFIGURATION
+        run: dotnet build --configuration ${{env.BUILD_CONFIGURATION}}
