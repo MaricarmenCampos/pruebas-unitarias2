@@ -50,4 +50,18 @@ public class OperacionesMatematicasTests
       Assert.Equal(0, resultado);
     }
 
+    [Fact]
+    public void Restar_DosPositivos_RetornaLaResta()
+    {
+      // Arrange
+      int a = 10; 
+      int b = 5;
+
+      // Act
+      var resultado = _operacionesMatematicas.Restar(a, b);
+
+      // Assert
+      Assert.Equal(5, resultado);
+    }
+
 }
